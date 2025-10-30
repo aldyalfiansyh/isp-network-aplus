@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APlus Network | Internet murah dan berkualitas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./wifi.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+        <h1>APlus Network</h1>
+        <p>Internet murah dan berkualitas</p>
+    </header>
+
+    <main class="container">
+        <section id="paket">
+            <h2>Pilih Paket Internet Anda</h2>
+            
+            <div class="paket-container">
+                <div class="paket-card">
+                    <h3>Paket Hemat</h3>
+                    <p class="harga">Rp100.000 <span>/bulan</span></p>
+                    <ul>
+                        <li>Kecepatan hingga 10 Mbps</li>
+                        <li>Ideal untuk 1-2 perangkat</li>
+                        <li>Biaya pemasangan Rp150.000</li>
+                    </ul>
+                    <button class="btn btn-berlangganan">Berlangganan</button>
+                </div>
+
+                <div class="paket-card">
+                    <h3>Paket Pemula</h3>
+                    <p class="harga">Rp300.000 <span>/bulan</span></p>
+                    <ul>
+                        <li>Kecepatan hingga 100 Mbps</li>
+                        <li>Unlimited Kuota</li>
+                        <li>Ideal untuk 7-10 perangkat</li>
+                        <li>Gratis biaya instalasi</li>
+                    </ul>
+                    <button class="btn btn-berlangganan">Berlangganan</button>
+                </div>
+
+                <div class="paket-card">
+                    <h3>Paket Hebat+TV</h3>
+                    <p class="harga">Rp599.000 <span>/bulan</span></p>
+                    <ul>
+                        <li>Kecepatan hingga 200 Mbps</li>
+                        <li>Unlimited Kuota</li>
+                        <li>Gratis biaya instalasi</li>
+                        <li>95 Channel TV (70 HD, 20 SD, 5 4K)</li>
+                        <li>Gratis akses 3 OTT (Vidio, Vision+, WeTV)</li>
+                    </ul>
+                    <button class="btn btn-berlangganan">Berlangganan</button>
+                </div>
+                <div class="paket-card">
+                    <h3>Paket Ngebut</h3>
+                    <p class="harga">Rp799.000 <span>/bulan</span></p>
+                    <ul>
+                        <li>Kecepatan hingga 700 Mbps</li>
+                        <li>Unlimited Kuota</li>
+                        <li>Gratis biaya instalasi</li>
+                        <li>Gratis Router 5GHz</li>
+                    </ul>
+                    <button class="btn btn-berlangganan">Berlangganan</button>
+                </div>
+
+                <div class="paket-card">
+                    <h3>Paket Lengkap</h3>
+                    <p class="harga">Rp1.500.000 <span>/bulan</span></p>
+                    <ul>
+                        <li>Kecepatan hingga 1 Gbps</li>
+                        <li>Gratis biaya instalasi</li>
+                        <li>Gratis router 5GHz</li>
+                        <li>115 Channel TV (100 HD, 10 4K, 5 SD)</li>
+                        <li>Termasuk langganan Netflix, YouTube Premium, Disney+, HBOMAX, Vidio, Vision+, WeTV</li>
+                    </ul>
+                    <button class="btn btn-berlangganan">Berlangganan</button>
+                </div>
+
+                <div class="paket-card">
+                    <h3>Paket Bisnis</h3>
+                    <p class="harga">Rp1.750.000 <span>/bulan</span></p>
+                    <ul>
+                        <li>Kecepatan 200 Mbps simetris</li>
+                        <li>Dedicated Internet</li>
+                        <li>SLA 99.9%</li>
+                        <li>Gratis biaya instalasi</li>
+                        <li>1 IP Publik & Gratis Router 5GHz</li>
+                    </ul>
+                    <button class="btn btn-berlangganan">Berlangganan</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cek-coverage">
+            <h2>Cek Ketersediaan Jaringan</h2>
+            <p>Silakan masukkan nama jalan dan nomor rumah untuk mengetahui apakah alamat Anda sudah tercover oleh jaringan kami atau belum.</p>
+            <div class="form-group">
+                <label for="alamat">Alamat Lengkap</label>
+                <input type="text" id="alamat" placeholder="Contoh : Jalan Sudirman No 15">
+            </div>
+            <button id="btn-cek" class="btn">Cek Ketersediaan</button>
+            
+            <div id="coverage-result"></div>
+        </section>
+
+        <section id="formulir-pendaftaran">
+            <h2>Formulir Pendaftaran</h2>
+            <form id="form-daftar">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="telepon">Nomor WhatsApp</label>
+                    <input type="tel" id="telepon" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <button type="submit" class="btn">Kirim Pendaftaran</button>
+            </form>
+        </section>
+
+    </main>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
